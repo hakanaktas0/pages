@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/serialization/mixed-type-collection",
+		"source" : "examples/serialization/mixed-type-collection"
+	}
+}

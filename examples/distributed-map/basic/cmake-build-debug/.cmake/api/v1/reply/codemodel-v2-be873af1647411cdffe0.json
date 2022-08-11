@@ -1,0 +1,65 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fillmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fillmap-Debug-bc40a340f3a8e9ed3be7.json",
+					"name" : "fillmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printall-Debug-3ee23f714c1c29da992d.json",
+					"name" : "printall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/examples/distributed-map/basic/cmake-build-debug",
+		"source" : "/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/examples/distributed-map/basic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/network-configuration/shuffle-memberlist",
+		"source" : "examples/network-configuration/shuffle-memberlist"
+	}
+}

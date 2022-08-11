@@ -1,0 +1,169 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "examples/distributed-map/entry-listener/mapentrylistener"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"examples/distributed-map/entry-listener/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 1,
+					"define" : "BOOST_CHRONO_DYN_LINK"
+				},
+				{
+					"backtrace" : 1,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 1,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 1,
+					"define" : "BOOST_THREAD_NO_LIB"
+				},
+				{
+					"backtrace" : 1,
+					"define" : "BOOST_THREAD_VERSION=5"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 1,
+					"path" : "/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/hazelcast/include"
+				},
+				{
+					"backtrace" : 1,
+					"path" : "/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/hazelcast/generated-sources/src"
+				},
+				{
+					"backtrace" : 1,
+					"path" : "/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 1,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "hazelcast-cpp-client::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "mapentrylistener::@eb43364e5596b54bbc04",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/cmake-build-debug -Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "libhazelcast-cpp-client.5.0.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libboost_thread.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libboost_chrono.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mapentrylistener",
+	"nameOnDisk" : "mapentrylistener",
+	"paths" : 
+	{
+		"build" : "examples/distributed-map/entry-listener",
+		"source" : "examples/distributed-map/entry-listener"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/distributed-map/entry-listener/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

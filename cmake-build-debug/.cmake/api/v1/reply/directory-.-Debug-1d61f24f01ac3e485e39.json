@@ -1,0 +1,127 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libhazelcast-cpp-client.5.0.0.dylib"
+			],
+			"targetId" : "hazelcast-cpp-client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 51,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libhazelcast-cpp-client.dylib"
+			],
+			"targetId" : "hazelcast-cpp-client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 51,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/hazelcast-cpp-client",
+			"exportName" : "hazelcast-cpp-client-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "hazelcast-cpp-client::@6890427a1f51a3e7e1df",
+					"index" : 51
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/lib/cmake/hazelcast-cpp-client/hazelcast-cpp-client-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/hazelcast-cpp-client",
+			"paths" : 
+			[
+				"cmake-build-debug/hazelcast-cpp-client-config.cmake",
+				"cmake-build-debug/hazelcast-cpp-client-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "hazelcast/include",
+					"to" : "."
+				},
+				{
+					"from" : "hazelcast/generated-sources/src",
+					"to" : "."
+				},
+				{
+					"from" : "cmake-build-debug/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

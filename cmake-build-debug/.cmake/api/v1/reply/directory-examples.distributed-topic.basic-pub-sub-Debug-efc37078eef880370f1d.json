@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/distributed-topic/basic-pub-sub",
+		"source" : "examples/distributed-topic/basic-pub-sub"
+	}
+}

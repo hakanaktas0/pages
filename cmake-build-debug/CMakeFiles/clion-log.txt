@@ -1,0 +1,32 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2 -B /Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/cmake-build-debug
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GIT_COMMIT_DATE = Mon Jun 20 10:36:37 2022 +0300
+-- GIT_COMMIT_ID = 7a5321b8
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Boost: /usr/local/lib/cmake/Boost-1.79.0/BoostConfig.cmake (found suitable version "1.79.0", minimum required is "1.71") found components: thread chrono 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuration summary:
+--   CMAKE_BUILD_TYPE =      Debug
+--   BUILD_SHARED_LIBS =     ON
+--   WITH_OPENSSL =          OFF
+--   DISABLE_LOGGING =       OFF
+--   CMAKE_INSTALL_PREFIX =  /usr/local
+--   BUILD_TESTS =           OFF
+--   BUILD_EXAMPLES =        ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hakanaktas/Hazelcast/hazelcast-cpp-client-4.2/cmake-build-debug

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/learning-basics/destroying-instances",
+		"source" : "examples/learning-basics/destroying-instances"
+	}
+}

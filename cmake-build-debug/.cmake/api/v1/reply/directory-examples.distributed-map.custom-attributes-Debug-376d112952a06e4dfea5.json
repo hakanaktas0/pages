@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/distributed-map/custom-attributes",
+		"source" : "examples/distributed-map/custom-attributes"
+	}
+}

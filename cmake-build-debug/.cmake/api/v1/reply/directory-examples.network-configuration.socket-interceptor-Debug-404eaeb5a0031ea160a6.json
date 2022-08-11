@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/network-configuration/socket-interceptor",
+		"source" : "examples/network-configuration/socket-interceptor"
+	}
+}
